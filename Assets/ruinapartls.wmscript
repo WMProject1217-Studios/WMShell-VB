@@ -1,0 +1,21 @@
+﻿window.set 640,480,center,center,Ruina,#FFFFFF
+playsound DW2.wav
+talkbox.set 480,160,80,320,#000000,center
+talkbox.show 水面晃动，映出了不知何处的遥远光景……
+picturebox.set 120,0
+picturebox.show OldCity.bmp
+talkbox.show \n――你看到了一座不可思议的城市。
+talkbox.show 反射阳光的洁白建筑。\n列柱环绕的神殿。\n奇形怪状的塔群。
+talkbox.show \n在街道上成列行进的士兵们，\n用长枪穿刺尸体高举于空……
+picturebox.clear
+talkbox.show \n景色变化了――
+window.set 640,480,center,center,Ruina,#000000
+talkbox.set 480,160,center,320,#FFFFFF,center
+picturebox.show RoomOfWitch.bmp
+talkbox.show 在某处的室内。\n 石柱撑起的高耸天花下，是一派逆光景致。\n 一名少女身居其中，漫不经心地卧于席上。
+talkbox.show \n「―― …… ―― …… ――」
+talkbox.show \n她随即起身，默念某人的名字。
+talkbox.show \n「―― …… ―― …… ――」
+talkbox.show \n「――――#USERNAME#――――」
+picturebox.clear
+talkbox.show ……终于，水面上的光景消失了。
